@@ -1,5 +1,5 @@
 UID          PID    PPID  C STIME TTY          TIME CMD
-root           1       0  0 Sep24 ?        00:00:02 /sbin/init splash
+root           1       0  0 Sep24 ?        00:00:03 /sbin/init splash
 root           2       0  0 Sep24 ?        00:00:00 [kthreadd]
 root           3       2  0 Sep24 ?        00:00:00 [rcu_gp]
 root           4       2  0 Sep24 ?        00:00:00 [rcu_par_gp]
@@ -10,23 +10,23 @@ root          11       2  0 Sep24 ?        00:00:00 [mm_percpu_wq]
 root          12       2  0 Sep24 ?        00:00:00 [rcu_tasks_rude_kthread]
 root          13       2  0 Sep24 ?        00:00:00 [rcu_tasks_trace_kthread]
 root          14       2  0 Sep24 ?        00:00:00 [ksoftirqd/0]
-root          15       2  0 Sep24 ?        00:00:12 [rcu_sched]
-root          16       2  0 Sep24 ?        00:00:00 [migration/0]
+root          15       2  0 Sep24 ?        00:00:13 [rcu_sched]
+root          16       2  0 Sep24 ?        00:00:01 [migration/0]
 root          17       2  0 Sep24 ?        00:00:00 [cpuhp/0]
 root          18       2  0 Sep24 ?        00:00:00 [cpuhp/1]
-root          19       2  0 Sep24 ?        00:00:00 [migration/1]
+root          19       2  0 Sep24 ?        00:00:01 [migration/1]
 root          20       2  0 Sep24 ?        00:00:00 [ksoftirqd/1]
 root          22       2  0 Sep24 ?        00:00:00 [kworker/1:0H-events_highpri]
 root          23       2  0 Sep24 ?        00:00:00 [cpuhp/2]
-root          24       2  0 Sep24 ?        00:00:00 [migration/2]
+root          24       2  0 Sep24 ?        00:00:01 [migration/2]
 root          25       2  0 Sep24 ?        00:00:00 [ksoftirqd/2]
 root          27       2  0 Sep24 ?        00:00:00 [kworker/2:0H-events_highpri]
 root          28       2  0 Sep24 ?        00:00:00 [cpuhp/3]
-root          29       2  0 Sep24 ?        00:00:00 [migration/3]
+root          29       2  0 Sep24 ?        00:00:01 [migration/3]
 root          30       2  0 Sep24 ?        00:00:00 [ksoftirqd/3]
 root          32       2  0 Sep24 ?        00:00:00 [kworker/3:0H-events_highpri]
 root          33       2  0 Sep24 ?        00:00:00 [cpuhp/4]
-root          34       2  0 Sep24 ?        00:00:00 [migration/4]
+root          34       2  0 Sep24 ?        00:00:01 [migration/4]
 root          35       2  0 Sep24 ?        00:00:00 [ksoftirqd/4]
 root          37       2  0 Sep24 ?        00:00:00 [kworker/4:0H-events_highpri]
 root          38       2  0 Sep24 ?        00:00:00 [cpuhp/5]
@@ -39,9 +39,9 @@ root          47       2  0 Sep24 ?        00:00:00 [kauditd]
 root          48       2  0 Sep24 ?        00:00:00 [khungtaskd]
 root          49       2  0 Sep24 ?        00:00:00 [oom_reaper]
 root          50       2  0 Sep24 ?        00:00:00 [writeback]
-root          51       2  0 Sep24 ?        00:00:04 [kcompactd0]
+root          51       2  0 Sep24 ?        00:00:05 [kcompactd0]
 root          52       2  0 Sep24 ?        00:00:00 [ksmd]
-root          53       2  0 Sep24 ?        00:00:01 [khugepaged]
+root          53       2  0 Sep24 ?        00:00:02 [khugepaged]
 root          54       2  0 Sep24 ?        00:00:00 [kintegrityd]
 root          55       2  0 Sep24 ?        00:00:00 [kblockd]
 root          56       2  0 Sep24 ?        00:00:00 [blkcg_punt_bio]
@@ -59,24 +59,22 @@ root          77       2  0 Sep24 ?        00:00:00 [kworker/1:1H-kblockd]
 root          78       2  0 Sep24 ?        00:00:00 [ipv6_addrconf]
 root          83       2  0 Sep24 ?        00:00:00 [kstrp]
 root          87       2  0 Sep24 ?        00:00:00 [kworker/u13:0]
-root         104       2  0 Sep24 ?        00:00:04 [kworker/3:1-mm_percpu_wq]
-root         147       2  0 Sep24 ?        00:00:04 [kworker/5:1-mm_percpu_wq]
 root         166       2  0 Sep24 ?        00:00:00 [kworker/4:1H-kblockd]
 root         167       2  0 Sep24 ?        00:00:00 [kworker/3:1H-kblockd]
 root         169       2  0 Sep24 ?        00:00:00 [kworker/2:1H-kblockd]
 root         170       2  0 Sep24 ?        00:00:00 [kworker/5:1H-kblockd]
-root         262       2  0 Sep24 ?        00:00:00 [jbd2/vda2-8]
+root         262       2  0 Sep24 ?        00:00:01 [jbd2/vda2-8]
 root         263       2  0 Sep24 ?        00:00:00 [ext4-rsv-conver]
 root         283       2  0 Sep24 ?        00:00:00 [hwrng]
 root         325       1  0 Sep24 ?        00:00:01 /lib/systemd/systemd-journald
 root         363       1  0 Sep24 ?        00:00:00 /lib/systemd/systemd-udevd
 root         373       2  0 Sep24 ?        00:00:00 [psimon]
 root         527       1  0 Sep24 ?        00:00:00 dhclient -4 -v -i -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/dhclient6.eth0.leases eth0
-root         544       1  0 Sep24 ?        00:00:04 /usr/sbin/haveged --Foreground --verbose=1
+root         544       1  0 Sep24 ?        00:00:05 /usr/sbin/haveged --Foreground --verbose=1
 systemd+     548       1  0 Sep24 ?        00:00:00 /lib/systemd/systemd-timesyncd
 root         559       2  0 Sep24 ?        00:00:00 [rpciod]
 root         560       2  0 Sep24 ?        00:00:00 [xprtiod]
-avahi        585       1  0 Sep24 ?        00:00:02 avahi-daemon: running [kali.local]
+avahi        585       1  0 Sep24 ?        00:00:03 avahi-daemon: running [kali.local]
 root         591       1  0 Sep24 ?        00:00:00 /usr/sbin/cron -f
 message+     592       1  0 Sep24 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
 polkitd      594       1  0 Sep24 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
@@ -87,12 +85,12 @@ root         607       1  0 Sep24 ?        00:00:03 /usr/sbin/NetworkManager --n
 root         609       1  0 Sep24 ?        00:00:00 /usr/sbin/spice-webdavd -p 9843
 root         634       1  0 Sep24 ?        00:00:00 /usr/sbin/ModemManager
 root         732       1  0 Sep24 ?        00:00:00 /usr/sbin/lightdm
-root         765     732  0 Sep24 tty7     00:01:41 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         765     732  0 Sep24 tty7     00:02:05 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
 root         766       1  0 Sep24 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
 root         767       1  0 Sep24 ?        00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
 root         808       2  0 Sep24 ?        00:00:00 [scsi_eh_0]
 root         809       2  0 Sep24 ?        00:00:00 [scsi_tmf_0]
-root         810       2  0 Sep24 ?        00:00:14 [usb-storage]
+root         810       2  0 Sep24 ?        00:00:16 [usb-storage]
 root         811       2  0 Sep24 ?        00:00:00 [uas]
 root         814       2  0 Sep24 ?        00:00:00 [psimon]
 rtkit        843       1  0 Sep24 ?        00:00:02 /usr/libexec/rtkit-daemon
@@ -111,17 +109,17 @@ alison      1027     924  0 Sep24 ?        00:00:00 /usr/libexec/at-spi-bus-laun
 alison      1034    1027  0 Sep24 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
 alison      1045     924  0 Sep24 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
 alison      1058     924  0 Sep24 ?        00:00:00 /usr/bin/gpg-agent --supervised
-alison      1060     972  0 Sep24 ?        00:00:33 xfwm4
+alison      1060     972  0 Sep24 ?        00:00:39 xfwm4
 alison      1064     924  0 Sep24 ?        00:00:00 /usr/libexec/gvfsd
 alison      1070     924  0 Sep24 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
 alison      1098     972  0 Sep24 ?        00:00:00 xfsettingsd
 root        1102       1  0 Sep24 ?        00:00:00 /usr/libexec/upowerd
-alison      1108     972  0 Sep24 ?        00:00:04 xfce4-panel
+alison      1108     972  0 Sep24 ?        00:00:05 xfce4-panel
 alison      1113     972  0 Sep24 ?        00:00:00 Thunar --daemon
 alison      1119     972  0 Sep24 ?        00:00:03 xfdesktop
-alison      1123    1108  0 Sep24 ?        00:00:04 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 16777223 whiskermenu Whisker Menu Show a menu to easily access installed applications
+alison      1123    1108  0 Sep24 ?        00:00:05 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 16777223 whiskermenu Whisker Menu Show a menu to easily access installed applications
 alison      1127    1108  0 Sep24 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 16777229 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
-alison      1128    1108  0 Sep24 ?        00:04:53 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777230 genmon Generic Monitor Show output of a command.
+alison      1128    1108  0 Sep24 ?        00:05:33 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777230 genmon Generic Monitor Show output of a command.
 alison      1129    1108  0 Sep24 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 16777231 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
 alison      1130    1108  0 Sep24 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 16777232 notification-plugin Notification Plugin Notification plugin for the Xfce panel
 alison      1131    1108  0 Sep24 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 16777233 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
@@ -139,33 +137,34 @@ alison      1231     924  0 Sep24 ?        00:00:00 /usr/libexec/dconf-service
 alison      1233     972  0 Sep24 ?        00:00:01 light-locker
 colord      1252       1  0 Sep24 ?        00:00:00 /usr/libexec/colord
 root        1253       1  0 Sep24 ?        00:00:00 /usr/sbin/pcscd --foreground --auto-exit
-root        1256       1  0 Sep24 ?        00:00:08 /usr/sbin/spice-vdagentd
+root        1256       1  0 Sep24 ?        00:00:11 /usr/sbin/spice-vdagentd
 alison      1327     924  0 Sep24 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
-root        1351       1  0 Sep24 ?        00:00:02 /usr/libexec/udisks2/udisksd
+root        1351       1  0 Sep24 ?        00:00:03 /usr/libexec/udisks2/udisksd
 alison      1360     924  0 Sep24 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
-alison      1368     924  0 Sep24 ?        00:00:08 /usr/libexec/gvfs-afc-volume-monitor
+alison      1368     924  0 Sep24 ?        00:00:09 /usr/libexec/gvfs-afc-volume-monitor
 alison      1374     924  0 Sep24 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
 alison      1382     924  0 Sep24 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
 alison      1406    1064  0 Sep24 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
 alison      1420     924  0 Sep24 ?        00:00:00 /usr/libexec/gvfsd-metadata
 alison      1437     924  0 Sep24 ?        00:00:00 /usr/libexec/bluetooth/obexd
-root      265239       2  0 03:32 ?        00:00:01 [kworker/u12:3-ext4-rsv-conversion]
-root      339018       2  0 06:06 ?        00:00:00 [kworker/u12:0-events_unbound]
-root      438400       2  0 09:31 ?        00:00:00 [kworker/1:1-events_power_efficient]
-root      440779       2  0 09:36 ?        00:00:00 [kworker/2:1-events]
-root      440884       2  0 09:36 ?        00:00:00 [kworker/3:2-cgwb_release]
-root      440901       2  0 09:36 ?        00:00:00 [kworker/u12:2-events_unbound]
-root      441741       2  0 09:38 ?        00:00:00 [kworker/4:1-mm_percpu_wq]
-root      441742       2  0 09:38 ?        00:00:00 [kworker/4:2]
-root      441743       2  0 09:38 ?        00:00:00 [kworker/5:2-events]
-root      451840       2  0 09:58 ?        00:00:00 [kworker/0:0-events]
-alison    454857       1  0 10:04 ?        00:00:02 /usr/bin/qterminal
-alison    454860  454857  0 10:04 pts/0    00:00:01 /usr/bin/zsh
-root      457413       2  0 10:09 ?        00:00:00 [kworker/0:1-events]
-root      459456       2  0 10:13 ?        00:00:00 [kworker/1:2-events_power_efficient]
-root      460354       2  0 10:15 ?        00:00:00 [kworker/2:2]
-root      460927       2  0 10:16 ?        00:00:00 [kworker/0:2-events]
-root      462008       2  0 10:18 ?        00:00:00 [kworker/1:0-events]
-alison    462210     924  0 10:19 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/xfconf/xfconfd
-root      462402       2  0 10:19 ?        00:00:00 [kworker/5:0-mm_percpu_wq]
-alison    463347  454860  0 10:20 pts/0    00:00:00 ps -ef
+root      339018       2  0 06:17 ?        00:00:01 [kworker/u12:0-flush-254:0]
+root      441741       2  0 09:49 ?        00:00:00 [kworker/4:1-cgwb_release]
+alison    454857       1  0 10:15 ?        00:00:22 /usr/bin/qterminal
+alison    454860  454857  0 10:15 pts/0    00:00:05 /usr/bin/zsh
+root      471733       2  0 10:49 ?        00:00:00 [kworker/2:0-events]
+root      486262       2  0 11:19 ?        00:00:00 [kworker/3:0-mm_percpu_wq]
+root      491275       2  0 11:29 ?        00:00:00 [kworker/u12:1-events_unbound]
+root      498798       2  0 11:44 ?        00:00:00 [kworker/5:4-mm_percpu_wq]
+root      506537       2  0 12:00 ?        00:00:00 [kworker/3:2]
+root      509196       2  0 12:06 ?        00:00:00 [kworker/u12:2-events_unbound]
+root      509208       2  0 12:06 ?        00:00:00 [kworker/1:3-events_power_efficient]
+root      510683       2  0 12:09 ?        00:00:00 [kworker/4:2-mm_percpu_wq]
+root      521711       2  0 12:31 ?        00:00:00 [kworker/0:2-events]
+root      521809       2  0 12:31 ?        00:00:00 [kworker/2:2-events]
+root      524256       2  0 12:36 ?        00:00:00 [kworker/0:1-events]
+root      524690       2  0 12:37 ?        00:00:00 [kworker/1:1-mm_percpu_wq]
+root      525370       2  0 12:39 ?        00:00:00 [kworker/5:1-mm_percpu_wq]
+alison    526059     924  0 12:40 ?        00:00:00 /usr/lib/aarch64-linux-gnu/xfce4/xfconf/xfconfd
+root      527297       2  0 12:42 ?        00:00:00 [kworker/1:0-mm_percpu_wq]
+root      528115       2  0 12:44 ?        00:00:00 [kworker/0:0-events]
+alison    528181  454860  0 12:44 pts/0    00:00:00 ps -ef

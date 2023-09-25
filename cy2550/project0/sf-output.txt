@@ -2,7 +2,7 @@
 [0m[1;34m            ..,;:ccc,.                          [0m[1;34m alison[0m[1m@[0m[0m[1;34mkali[0m
 [0m[1;34m          ......''';lxO.                        [0m[1;34m OS:[0m Kali Linux [0m
 [0m[1;34m.....''''..........,:ld;                        [0m[1;34m Kernel:[0m aarch64 Linux 6.5.0-kali1-arm64[0m
-[0m[1;34m           .';;;:::;,,.x,                       [0m[1;34m Uptime:[0m 15h 51m[0m
+[0m[1;34m           .';;;:::;,,.x,                       [0m[1;34m Uptime:[0m 18h 4m[0m
 [0m[1;34m      ..'''.            0Xxoc:,.  ...           [0m[1;34m Packages:[0m 2671[0m
 [0m[1;34m  ....                ,ONkc;,;cokOdc',.         [0m[1;34m Shell:[0m zsh 5.9[0m
 [0m[1;34m .                   OMo           ':[0m[30mdd[0m[1;34mo.       [0m[1;34m Resolution:[0m 1280x800[0m
